@@ -28,7 +28,7 @@ public class QuickSort {
             return;
         }
         //设置基准值
-        p = arr[low];
+        p = arr[(low+high)/2];
         //设置低位
         i = low;
         //设置低位

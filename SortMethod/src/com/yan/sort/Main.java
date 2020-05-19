@@ -39,5 +39,13 @@ public class Main {
         QuickSort.quickSort(arr8);
         BinarySearch.binarySearch(arr8,3);
 
+        Integer aa = 129;
+        Integer bb = 129;
+        System.out.println("aa == bb " + (aa == bb));
+
+        Integer aa1 = 19;
+        Integer bb1 = 19;
+        System.out.println("aa1 == bb2 " + (aa1 == bb1));
+
     }
 }
